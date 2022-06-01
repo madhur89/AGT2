@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scroll</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="scroll.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Desktop version -->
+    <!-- 1 -->
+<section class="h-100 d-none d-sm-block" id="desktop">
+    <div class="h-100" id="page1">
+        <div class="row justify-content-center h-100">
+            <div class="col-5 hidden-md-down" id="yellow" style="position: relative;">
+                <div class="outer-text">
+                    <h1>Some Text</h1>
+                    <p>best since2017<br>
+                        we offer wide Range of<br>
+                        web and app development
+                    </p>
+                    <span>view case study ---></span>
+                </div>
+                <div class="svg-text roll-in-left">
+                    <p class="text-light m-0" style="font-size: 1.2rem;">Developing Erp solutions</p>
+                    <h1 class="text-light" style="font-size: 3em;">Text Headline</h1>
+                    <p class="text-light mt-0" style="font-size: 1rem; position: absolute; left: 40%;">In furniture
+                        Industries</p>
+                </div>
+                <img class="svg" src="svg with paths1.svg" alt="svg" width="300px" , height="300px">
+            </div>
+            <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 right">
+                <img class="bg-light" src="erp-app-development-service.png" alt="rightImg" width="100%" height="100%">
+            </div>
+        </div>
+        <!--  2-->
+        <div class="row justify-content-center h-100" id="page2">
+            <div class="col-5 hidden-md-down" id="yellow2" style="position: relative;">
+                <div class="outer-text" id="side-txt">
+                    <h1>ABC 2435</h1>
+                    <p>best since2017<br>
+                        we offer wide Range of<br>
+                        web and app development
+                    </p>
+                    <span>Comming Soon</span>
+                </div>
+                <div class="svg-text" id="svg-text2">
+                    <p class="text-light m-0" style="font-size: 1.2rem;">Biggest Classifieds</p>
+                    <h1 class="text-light" style="font-size: 3em;">East Asia</h1>
+                    <p class="text-light mt-0" style="font-size: 1rem; position: absolute; left: 60%;">Countries
+                        </p>
+                </div>
+                <img class="svg" src="svg with paths2.svg" alt="svg" width="300px" , height="300px">
+            </div>
+
+            <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 right2" style="position: relative; z-index: -1;" id="image2">
+                <img class="bg-light" src="melltoo-img2.png" width="30%" , height="60%" style="
+              border-radius: 40px; 
+              position: absolute;
+              top: 40%; 
+              left: 30%;
+              ">
+                <img class="bg-light" src="melltoo-img1.png" width="25%" , height="60%" style="
+               border-radius: 35px; 
+               position: absolute;
+               top: 38%; 
+               left: 50%;
+
+               ">
+            </div>
+        </div>
+        <!-- 3 -->
+
+        <div class="row justify-content-center h-100" id="page3">
+            <div class="col-5 hidden-md-down" id="yellow3" style="position: relative;">
+                <div class="outer-text" id="side-txt3">
+                    <h1>ABC 2435</h1>
+                    <p>best since2017<br>
+                        we offer wide Range of<br>
+                        web and app development
+                    </p>
+                    <span>Comming Soon</span>
+                </div>
+                <div class="svg-text" id="svg-text2" >
+                    <p class="text-light m-0" style="font-size: 1.2rem;">The Next Big</p>
+                    <h1 class="text-light" style="font-size: 3em;">BlockChain</h1>
+                    <p class="text-light mt-0" style="font-size: 1rem; position: absolute; left: 60%;">Revolution
+                        </p>
+                </div>
+                <img class="svg" src="svg with paths3.svg" alt="svg" width="300px" , height="300px" style="z-index: 2;">
+            </div>
+
+            <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 right3" style="position: relative; z-index: -5;" id="image3">
+                <img class="bg-light img3" src="veme-app-ui-design.png" width="25%" , height="60%" style="
+              border-radius: 30px; 
+              position: absolute;
+              top: -10%; 
+              left: 50%;
+              z-index: -1;
+              ">
+                <img class="bg-light img3_2" src="veme-blockchain-app-developed.png" width="25%" , height="60%" style="
+               border-radius: 30px; 
+               position: absolute;
+               top: 40%; 
+               right: 60%;
+
+               ">
+            </div>
+        </div>
+    </div>
+    </section>
+<!-- mobile View -->
+<section class="mobile d-block d-sm-none">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="mob1.png" alt="Los Angeles" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="mob2.png" alt="Chicago" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="mob3.png" alt="New York" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button> -->
+</div>
+
+
+
+</section>
+
+    
+    <script>
+        var controller = new ScrollMagic.Controller();
+// 1
+var scene = new ScrollMagic.Scene({triggerElement: "#page2"})							
+    .setClassToggle("#svg-text2", "slide-in-top")
+    .addIndicators({name: "1 - add a class"}) 
+    .addTo(controller);
+
+    // 2
+var scene = new ScrollMagic.Scene({triggerElement: "#page2"})
+    .setClassToggle("#side-txt", "slide-in-fwd-left")
+    .addIndicators({name: "1 - add a class"}) 
+    .addTo(controller);
+    
+    var scene = new ScrollMagic.Scene({triggerElement: "#page2"})
+    .setClassToggle("#image2", "slide-in-bottom")
+    .addIndicators({name: "1 - add a class"}) 
+    .addTo(controller);
+
+    // 3
+var scene = new ScrollMagic.Scene({triggerElement: "#page3"})
+    .setClassToggle(".img3", "slide-in-bottom")
+    .addIndicators({name: "1 - add a class"}) 
+    .addTo(controller)
+    
+    var scene = new ScrollMagic.Scene({triggerElement: "#page3"})
+    .setClassToggle(".img3_2", "slide-in-bottom")
+    .addIndicators({name: "1 - add a class"}) 
+    .addTo(controller);
+
+    var scene = new ScrollMagic.Scene({triggerElement: "#page3"})
+    .setClassToggle("#side-txt3", "slide-in-fwd-left")
+    .addIndicators({name: "1 - add a class"}) 
+    .addTo(controller);
+
+
+</script>
+
+   
+</body>
+
+</html>
